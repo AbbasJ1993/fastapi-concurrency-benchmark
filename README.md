@@ -111,3 +111,8 @@ pytest.ini              Pytest configuration
 ## Reproducing results responsibly
 
 Run tests before benchmarking, ensure port 8000 is free, close unnecessary CPU-intensive applications, and record your Python version, OS, processor, power mode, and benchmark configuration. Compare repeated runs rather than relying on one timing.
+
+## License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
