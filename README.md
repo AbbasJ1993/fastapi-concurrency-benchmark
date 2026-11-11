@@ -1,5 +1,8 @@
 # FastAPI Concurrency Benchmark
 
+[![Python Tests](https://github.com/AbbasJ1993/fastapi-concurrency-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/AbbasJ1993/fastapi-concurrency-benchmark/actions/workflows/tests.yml)
+
+
 A small, reproducible FastAPI project comparing approaches to CPU-bound work: direct execution inside an async endpoint, offloading to a thread with `asyncio.to_thread`, and execution in a `ProcessPoolExecutor`.
 
 **Scope:** This is a CPU-bound Python microbenchmark, **not** a computer-vision inference benchmark. The `/predict` endpoint validates uploaded images; it does not run a trained model.
